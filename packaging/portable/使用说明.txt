@@ -1,0 +1,13 @@
+QianuHub 闲鱼助手 Windows 便携版
+
+使用方法：
+1. 将整个文件夹解压到有写入权限的位置。
+2. 双击 QianuHub.exe。
+3. 程序会自动启动内置服务，并打开浏览器管理后台：http://127.0.0.1:59188
+
+说明：
+- 本便携版不需要安装 Go、Node.js、Docker 或 Chrome。
+- 账号、数据库、浏览器登录状态和日志都保存在本目录的 data、logs 中。
+- 请不要单独移动或删除 qianuhub-server.exe、playwright-runtime 目录。
+- 首次使用是全新数据目录，请在网页中完成管理员初始化和账号登录。
+- 关闭启动器窗口不会停止后台服务；如需停止，请在任务管理器中结束 qianuhub-server.exe。
